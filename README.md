@@ -9,26 +9,48 @@ I am currently working through the Stanford / Coursera course:
 **Algorithms: Divide and Conquer, Sorting and Searching**  
 Instructor: Tim Roughgarden
 
-As I progress through the course, I will gradually add implementations of the algorithms studied in the lectures and programming assignments.
+As I progress through the course, I continuously add implementations of algorithms studied in lectures and programming assignments.
+
+---
+
+## Implemented Algorithms
+
+- Karatsuba Multiplication (Divide and Conquer)
+
+*(More algorithms will be added as the project progresses.)*
+
+---
 
 ## Topics Covered
 
-This repository will include implementations of algorithms such as:
+This repository will include implementations of:
 
 - Divide and Conquer
-- Recursive integer multiplication
-- Karatsuba multiplication
-- Merge sort
-- QuickSort
+- Sorting algorithms (Merge Sort, QuickSort)
 - Graph algorithms (BFS, DFS, shortest paths)
-- Dynamic programming
+- Dynamic Programming
+
+---
 
 ## Project Goals
 
-- Practice implementing algorithms from scratch
-- Understand time complexity and asymptotic analysis
-- Build a structured Python repository of classic algorithms
+- Implement algorithms from scratch
+- Develop intuition for time complexity and asymptotic analysis
+- Build a structured and well-documented algorithm repository
 - Prepare for advanced coursework in data science and computer science
+
+---
+
+## Notes
+
+Each algorithm implementation includes:
+- Clean, readable Python code
+- Inline documentation
+- Basic test cases
+
+More detailed explanations may be added as separate notes.
+
+---
 
 ## License
 
