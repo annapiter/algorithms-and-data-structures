@@ -16,6 +16,7 @@ As I progress through the course, I continuously add implementations of algorith
 ## Implemented Algorithms
 
 - Karatsuba Multiplication (Divide and Conquer)
+- Recursive Integer Multiplication (Divide and Conquer)
 
 *(More algorithms will be added as the project progresses.)*
 
