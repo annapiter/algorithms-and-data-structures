@@ -17,14 +17,31 @@ As I progress through the course, I continuously add implementations of algorith
 
 - Karatsuba Multiplication (Divide and Conquer)
 - Recursive Integer Multiplication (Divide and Conquer)
+- Merge Sort (O(n log n))
+- Inversion Counting:
+  - Naive approach (O(n²))
+  - Merge-based approach (O(n log n))
 
-*(More algorithms will be added as the project progresses.)*
+---
+
+## Performance Comparison
+
+Inversion counting was tested on a dataset with 100,000 integers:
+
+- Naive approach: ~300.5 seconds  
+- Merge-based approach: ~0.33 seconds  
+
+Both implementations produced the same result:
+
+**2,407,905,288 inversions**
+
+The divide-and-conquer approach is approximately **900× faster** than the naive implementation.
 
 ---
 
 ## Topics Covered
 
-This repository will include implementations of:
+This repository includes implementations of:
 
 - Divide and Conquer
 - Sorting algorithms (Merge Sort, QuickSort)
@@ -47,7 +64,7 @@ This repository will include implementations of:
 Each algorithm implementation includes:
 - Clean, readable Python code
 - Inline documentation
-- Basic test cases
+- Test cases and performance comparisons (where applicable)
 
 More detailed explanations may be added as separate notes.
 
