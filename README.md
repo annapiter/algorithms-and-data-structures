@@ -18,6 +18,10 @@ As I progress through the course, I continuously add implementations of algorith
 - Karatsuba Multiplication (Divide and Conquer)
 - Recursive Integer Multiplication (Divide and Conquer)
 - Merge Sort (O(n log n))
+- QuickSort:
+  - First element pivot
+  - Last element pivot
+  - Median-of-three pivot
 - Inversion Counting:
   - Naive approach (O(n²))
   - Merge-based approach (O(n log n))
@@ -26,7 +30,7 @@ As I progress through the course, I continuously add implementations of algorith
 
 ## Performance Comparison
 
-Inversion counting was tested on a dataset with 100,000 integers:
+### Inversion Counting (100,000 integers)
 
 - Naive approach: ~300.5 seconds  
 - Merge-based approach: ~0.33 seconds  
@@ -36,6 +40,18 @@ Both implementations produced the same result:
 **2,407,905,288 inversions**
 
 The divide-and-conquer approach is approximately **900× faster** than the naive implementation.
+
+---
+
+### QuickSort (10,000 integers)
+
+Number of comparisons:
+
+- First pivot: 162,085  
+- Last pivot: 164,123  
+- Median-of-three: 138,382  
+
+Median-of-three pivot significantly reduces the number of comparisons compared to simple pivot strategies.
 
 ---
 
