@@ -11,22 +11,24 @@ Instructor: Tim Roughgarden
 
 As I progress through the course, I continuously add implementations of algorithms studied in lectures and programming assignments.
 
----
-
 ## Implemented Algorithms
 
-- Karatsuba Multiplication (Divide and Conquer)
-- Recursive Integer Multiplication (Divide and Conquer)
-- Merge Sort (O(n log n))
-- QuickSort:
-  - First element pivot
-  - Last element pivot
-  - Median-of-three pivot
-- Inversion Counting:
-  - Naive approach (O(n²))
-  - Merge-based approach (O(n log n))
+### Divide and Conquer
+- Karatsuba Multiplication
+- Recursive Integer Multiplication
+- Merge Sort — O(n log n)
 
----
+### QuickSort Variants
+- First element pivot
+- Last element pivot
+- Median-of-three pivot
+
+### Inversion Counting
+- Naive approach — O(n²)
+- Merge-based approach — O(n log n)
+
+### Randomized Algorithms
+- Karger Randomized Min Cut Algorithm
 
 ## Performance Comparison
 
@@ -41,8 +43,6 @@ Both implementations produced the same result:
 
 The divide-and-conquer approach is approximately **900× faster** than the naive implementation.
 
----
-
 ### QuickSort (10,000 integers)
 
 Number of comparisons:
@@ -53,18 +53,15 @@ Number of comparisons:
 
 Median-of-three pivot significantly reduces the number of comparisons compared to simple pivot strategies.
 
----
-
 ## Topics Covered
 
 This repository includes implementations of:
 
 - Divide and Conquer
+- Randomized Algorithms
 - Sorting algorithms (Merge Sort, QuickSort)
-- Graph algorithms (BFS, DFS, shortest paths)
-- Dynamic Programming
-
----
+- Graph algorithms
+- Complexity analysis and performance comparison
 
 ## Project Goals
 
@@ -73,18 +70,13 @@ This repository includes implementations of:
 - Build a structured and well-documented algorithm repository
 - Prepare for advanced coursework in data science and computer science
 
----
-
 ## Notes
 
-Each algorithm implementation includes:
-- Clean, readable Python code
-- Inline documentation
-- Test cases and performance comparisons (where applicable)
-
-More detailed explanations may be added as separate notes.
-
----
+Each implementation includes:
+- Clean and readable Python code
+- Inline comments and explanations
+- Test datasets and algorithm validation
+- Runtime and complexity comparisons (where applicable)
 
 ## License
 
